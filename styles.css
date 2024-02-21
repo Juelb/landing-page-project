@@ -7,9 +7,10 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     font-family: "Roboto", sans-serif;
+    min-height: 100vh;
 }
 
 .top-section {
@@ -85,6 +86,7 @@ ul {
 
 a, li {
     color: #e5e7eb;
+    text-decoration: none;
 }
 
 .title {
@@ -134,7 +136,7 @@ a, li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 100px;
 }
 
 h3 {
@@ -168,6 +170,7 @@ h4 {
     border-radius: 8px;
     margin-right: auto;
     border-color: #e5e7eb;
+
 }
 
 .footer-text {
